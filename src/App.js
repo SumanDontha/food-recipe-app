@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1> Food Recipe App </h1>
+      <h1> Food Recipes Application </h1>
       <form className="app__searchForm" onSubmit={handleSubmit}>
         <input type="text" className="app__input" placeholder="Enter Ingridient" value={query} onChange={(e) => setQuery(e.target.value)} />
         <input type="submit" className="app__submit" value="Search" />
